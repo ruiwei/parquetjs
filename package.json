@@ -1,18 +1,17 @@
 {
-  "name": "parquetjs",
+  "name": "parquetjs-ts",
   "description": "fully asynchronous, pure JavaScript implementation of the Parquet file format",
   "main": "parquet.js",
-  "version": "0.8.0",
-  "homepage": "https://github.com/ironSource/parquetjs",
-  "author": "ironSource <npm@ironsrc.com>",
+  "version": "0.8.1",
+  "homepage": "https://github.com/ruiwei/parquetjs",
+  "author": "Ruiwei",
   "license": "MIT",
   "keywords": [
-    "dremel",
     "parquet"
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/ironSource/parquetjs.git"
+    "url": "https://github.com/ruiwei/parquetjs.git"
   },
   "dependencies": {
     "brotli": "^1.3.0",
@@ -32,6 +31,6 @@
     "test": "mocha"
   },
   "engines": {
-    "node": ">=7.6"
+    "node": ">=10"
   }
 }
